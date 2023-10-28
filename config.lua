@@ -4,7 +4,7 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 require('terminals')
-require('themes')
+require('plugins')
 require('search')
 require('explorer')
 require('lsp-keymaps')
