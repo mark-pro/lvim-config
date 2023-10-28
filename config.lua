@@ -9,8 +9,8 @@ require('search')
 require('explorer')
 require('lsp-keymaps')
 require('lsp-servers')
+require('keymaps')
 
 vim.o.relativenumber = true
 vim.o.tabstop = 4
 vim.o.shiftwidth = 2
-

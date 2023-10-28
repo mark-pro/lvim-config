@@ -13,7 +13,9 @@ lvim.plugins = {
         section_separators = '',
       },
     },
-  }
+  },
+
+  'github/copilot.vim'
 }
 
 lvim.colorscheme = 'dracula'
