@@ -54,12 +54,5 @@ lvim.builtin.which_key.mappings[','] = {
   l = { '<C-w>l', 'Right window' },
   k = { '<C-w>k', 'Top window' },
   j = { '<C-w>j', 'Bottom window' },
-  p = { '<Esc>,w', 'Pick window' },
-  ['.'] = { '<Esc>:bn<CR>', 'Next buffer' },
-  [','] = { '<Esc>:bp<CR>', 'Previous buffer' }
+  p = { '<Esc>,w', 'Pick window' }
 }
-
--- macros for coding
-
-lvim.keys.insert_mode["<A-;>"] = '<Esc>mzA;<Esc>`za'
-lvim.keys.normal_mode["<A-;>"] = 'mzA;<Esc>`z'

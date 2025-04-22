@@ -21,10 +21,4 @@ vim.o.tabstop = 4
 vim.o.shiftwidth = 2
 vim.o.colorcolumn = '80,120'
 
-lvim.colorscheme = 'dracula'
-
--- Disable locals module entirely
 lvim.builtin.treesitter.rainbow.enable = true
-lvim.builtin.treesitter.highlight.enable = false
-
-vim.g.Illuminate_use_treesitter = 0

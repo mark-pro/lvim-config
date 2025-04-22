@@ -38,7 +38,7 @@ lvim.plugins = {
       })
     end,
   },
-  -- 'mrjones2014/nvim-ts-rainbow',
+  'mrjones2014/nvim-ts-rainbow',
   'nvim-lua/plenary.nvim',
   'ThePrimeagen/harpoon', 
   {
@@ -62,10 +62,7 @@ lvim.plugins = {
       })
     end,
  },
- {
-    "JoosepAlviste/nvim-ts-context-commentstring",
-    event = "BufRead",
-  },
-  'nvim-treesitter/nvim-treesitter',
 }
 
+lvim.colorscheme = 'dracula'
+lvim.builtin.treesitter.rainbow.enable = true
