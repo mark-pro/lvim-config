@@ -13,6 +13,7 @@ require('keymaps')
 require('harpoon-local')
 require('telescope')
 require('which-key')
+require('theme')
 
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
@@ -21,10 +22,11 @@ vim.o.tabstop = 4
 vim.o.shiftwidth = 2
 vim.o.colorcolumn = '80,120'
 
-lvim.colorscheme = 'dracula'
+lvim.colorscheme = 'duskfox'
+-- lvim.colorscheme = 'nightfox'
 
 -- Disable locals module entirely
 lvim.builtin.treesitter.rainbow.enable = true
 lvim.builtin.treesitter.highlight.enable = false
 
-vim.g.Illuminate_use_treesitter = 0
+-- vim.g.Illuminate_use_treesitter = 0

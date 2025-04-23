@@ -14,7 +14,7 @@ lvim.plugins = {
       },
     },
   },
-  'github/copilot.vim',
+  'EdenEast/nightfox.nvim',
   'tpope/vim-surround',
   {
     "s1n7ax/nvim-window-picker",
@@ -40,7 +40,7 @@ lvim.plugins = {
   },
   -- 'mrjones2014/nvim-ts-rainbow',
   'nvim-lua/plenary.nvim',
-  'ThePrimeagen/harpoon', 
+  'ThePrimeagen/harpoon',
   {
     "s1n7ax/nvim-window-picker",
     version = "1.*",

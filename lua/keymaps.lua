@@ -61,5 +61,5 @@ lvim.builtin.which_key.mappings[','] = {
 
 -- macros for coding
 
-lvim.keys.insert_mode["<A-;>"] = '<Esc>mzA;<Esc>`za'
-lvim.keys.normal_mode["<A-;>"] = 'mzA;<Esc>`z'
+lvim.keys.insert_mode['<A-;>'] = '<Esc>mzA;<Esc>`za'
+lvim.keys.normal_mode['<A-;>'] = 'mzA;<Esc>`z'

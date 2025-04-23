@@ -1,0 +1,10 @@
+Dockerfile
+
+# Ignore the bak files
+**/*.bak/
+
+# Ignore git
+.git/
+
+# Ignore osx
+.DS_Store
